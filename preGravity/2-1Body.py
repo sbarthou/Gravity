@@ -12,7 +12,7 @@ clock = pygame.time.Clock()
 
 # constantes
 CENTER = (WIDTH/2, HEIGHT/2)
-G = 0.001  # Ajusta este valor según sea necesario
+G = 0.0001  # Ajusta este valor según sea necesario
 dt = 0
 s = 0
 font = pygame.font.SysFont ("Apple Symbols", 20)  # Crea un objeto de fuente
@@ -57,7 +57,7 @@ class Body:
 
 
 body1 = Body('assets/circle25px.png', 100, WIDTH/2, HEIGHT/2)
-body2 = Body('assets/circle5px.png', 10, 0, 0)
+body2 = Body('assets/circle2px.png', 10, 0, 0)
 
 
 running = True
